@@ -1,0 +1,19 @@
+0.  All of them support a 24bit number of colors. But gifs can only show 256 colors per frame.
+1.  gif
+2.  In lossy compression there is a loss of quality, that dont occur in lossless compression
+3.  gif
+4.  the operating system moves the fat clusters on which the file is located to a free cluster list.
+5.  Rewrite all free space with data
+6.  its a header that help us define the size of int types in bytes, so our program can run properly regardless the cpu architecture
+7.  see question 6
+8.  the stdint defines them in number of bits, so they have 1, 4, 4, and 2 bytes, respectively
+9.  42 4D, or "BM"
+10. The first is the size of the file header, and the size of the info header
+11. it means that the image is stored from top to bop
+12. biBitCount 
+13. if, for some reason, the file cannot be created (eg. lack of disk space, memory, permission)
+14. the third argument tells how much pieces of data are being read, and the architecture is set to read 1 by 1.
+15. 3
+16. it change the position of a pointer in a file. in copy.c, it makes the pointer used to copy skips the paddind
+17. it sets the current position of the pointer as the origin parameter. in practice, it will add the current position to the second argument, to define the new position
+18. i didnt saw the cartoon in my childhood, but look like a muppet

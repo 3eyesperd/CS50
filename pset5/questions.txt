@@ -1,0 +1,12 @@
+0.  According to wikipedia, is ""a factitious word alleged to mean 'a lung disease caused by the inhalation of very fine silica dust, causing inflammation in the lungs.'"
+1.  It is a function used to measure performance of processes
+2.  16
+3.  Because the getrusage takes a pointer as argument, not values. So we must pass memory adresses, not their content.
+4.  It loads text into memory, then loads every char into word[], until: i. size limit is reached; ii. it finds a number; iii. the char found isnt a apostrophe or a alphabetical. if [i] or [ii], it scans the file until the end of word ([iii]), and begins the loop again. if [iii] checks for the spelling of the word.
+	The loop continues until EOF is founded.
+5.  In this architecture, the array that stores the word is limites. Using scanf, we woudlnt have where to put a word bigger than the limit. Since we dont have to know whats de maximum size of the word read by fscanf, our program: [i] would have to be slower (using dynamic size array) [ii] could crash if the words read were very big
+6.  Because they dont change during the execution (and const variables are faster to read)
+7.  TODO
+8.  TODO
+9.  TODO
+10. TODO
